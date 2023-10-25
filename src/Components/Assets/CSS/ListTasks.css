@@ -1,0 +1,21 @@
+.list-tasks{
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: antiquewhite;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 40px 25px 40px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.delete-btn{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff6739;
+    color: white;
+    cursor: pointer;
+
+}
