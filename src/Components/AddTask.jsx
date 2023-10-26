@@ -21,9 +21,8 @@ const AddTask = ({addTask}) => {
             setValue(e.target.value);
           }}
         />
-        <button onClick={addItem} className="todo-add-btn" >
-          ADD
-        </button>
+        <i  onClick={addItem} class="fa-solid fa-plus">  </i>
+     
       </div>
     </>
   );

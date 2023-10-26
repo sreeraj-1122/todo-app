@@ -1,15 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #cdd2d3;
+}
+
 .todo-container{
-    width: 70vw;
+    text-align: center;
+    width: 400px;
     height: auto;
     border-radius: 10px;
     padding: 15px;
-    background-color: #fff;
     margin: auto;
-    margin-top: 172px;
+    margin-top: 130px;
     margin-bottom: 100px;
 
 }
-.header{
+/* .header{
     font-size: 2em;
     text-align: center;
+} */
+.header{
+    background-color:#08434f;
+    padding: 19px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #0c0b0b1c;
+
+}
+.header h1{
+    color: #ababab;
+}
+.tasks{
+    margin-top: 20px;
 }
